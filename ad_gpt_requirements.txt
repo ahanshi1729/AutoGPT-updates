@@ -1,0 +1,27 @@
+# AD-GPT System Requirements with Multi-LLM Support
+# Install with: pip install -r ad_gpt_requirements.txt
+
+# Core dependencies
+openai>=1.0.0
+google-generativeai>=0.3.0
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Search and NLP
+duckduckgo-search>=3.8.0
+nltk>=3.8.0
+textblob>=0.17.0
+wordcloud>=1.9.0
+
+# Utilities
+python-dateutil>=2.8.0
+tqdm>=4.64.0
+
+# Optional dependencies for enhanced functionality
+plotly>=5.0.0  # For interactive visualizations
+streamlit>=1.28.0  # For web interface (optional)
+jupyter>=1.0.0  # For notebook support (optional)
